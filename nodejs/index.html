@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Integration Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Store</h1>
+        <nav>
+            <ol>
+                <h1>GhaffarWale</h1>
+            </ol>
+            <ul>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#cart.html">checkout</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="my account.html">My account</a></li>
+                <li><a href="sample page.html">Sample page</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="scrollable-container">
+        <img src="pexels-photograph-1252508.jpg" alt="Scrollable Image">
+        <img src="pexels-wisdomsky-1673973.jpg" alt="">
+        <img src="pexels-photograph-1252508.jpg" alt="Scrollable Image">
+        <img src="pexels-wisdomsky-1673973.jpg" alt="">
+    </div>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our store. We offer a variety of products to suit your needs.</p>
+        </section>
+        
+        <section id="products">
+            <h2>Products</h2>
+            <p>Check out our amazing products.</p>
+            <button id="payButton">Buy Now</button>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>You can contact us at example@example.com</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 GhaffarWale | powerwed by Astra WordPress Theme </p>
+   </footer>
+    
+    <!-- Include the payment gateway script -->
+    <script src="https://checkout.stripe.com/checkout.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
